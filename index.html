@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teleperformance ID Link Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="popup-container">
+    <div class="popup-content" id="step1">
+        <h2>Enter your ID Number</h2>
+        <form id="id-form">
+            <label for="id">ID Number:</label>
+            <input type="text" id="id" name="id" required>
+            <button type="submit">Generate Link</button>
+        </form>
+    </div>
+
+    <div class="popup-content" id="step2" style="display: none;">
+        <h2>Your Generated Link</h2>
+        <div id="generated-link"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
